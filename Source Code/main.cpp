@@ -7,7 +7,7 @@ using namespace std;
 class Library {
 private:
 	int id;
-	int n {};
+	int n;
 	int signup;
 	int throughput;
 	vector<int> list_book {};
