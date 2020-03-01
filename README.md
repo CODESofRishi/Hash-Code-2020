@@ -7,7 +7,7 @@ A --> 21 points
 
 B --> 5,437,900 points
 
-c --> 1,145,887 points
+C --> 1,145,887 points
 
 D --> 4,026,555 points
 
