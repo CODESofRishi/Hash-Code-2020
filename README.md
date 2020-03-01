@@ -1,7 +1,7 @@
 # Hash-Code-2020
 ### My Implementation for Hash Code 2020
 
-Points Obtained:
+#### Points Obtained:
 
 A --> 21 points
 
