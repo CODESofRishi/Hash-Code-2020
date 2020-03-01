@@ -1,17 +1,7 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <cctype>
-#include <cmath>
-#include <iomanip>
-#include <climits>
-#include <cfloat>
 #include <algorithm>
 #define PB push_back
-#define ll long long
-#define ull unsigned long long
-#define uint unsigned
-#define MOD 1000000007;
 using namespace std;
 
 class Library {
@@ -81,15 +71,6 @@ void Library::getScaned(vector<int> &SCORE, vector<int> &bbk_sc) {
 			SCORE.at(max_ind) = 0;
 		}
 		else break;
-	}
-}
-
-void Library::removeScanned(const int &bbk_rm) {
-	for (auto &val: list_book) {
-		if (val == bbk_rm) {
-			val = -1;
-			break;
-		}
 	}
 }
 
@@ -177,7 +158,7 @@ int main() {
 	cout<<total_signed<<endl;
 	for (auto const &val: sign_seq) {
 		cout<<val<<" "<<scaned_id.at(val).size()<<endl;
-		for (auto const scid: scaned_id.at(val)) 
+		for (auto const &scid: scaned_id.at(val)) 
 			cout<<scid<<" ";
 		cout<<endl;
 	}
