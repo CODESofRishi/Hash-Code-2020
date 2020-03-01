@@ -20,7 +20,6 @@ public:
 	Library(const int &id_val = -1, const int &num_books = 0, const int &sign_day = 0, const int &th_put = 0, const vector<int> &list = vector<int> {}, const vector<int> &SCORE = vector<int> {});
 	void decreaseSign();
 	void getScaned(vector<int> &SCORE, vector<int> &bbk_sc);
-	void removeScanned(const int &bbk_rm);
 
 	// TEST
 	int getId() const { return id; }
